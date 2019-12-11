@@ -59,9 +59,9 @@ $(document).ready(function() {
     });
 
     $(".countdown")
-        .countdown("2018/03/01", function(event) {
+        .countdown("2020/02/20", function(event) {
             $(this).html(
-                event.strftime('<div>%w <span>Weeks</span></div>  <div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
+                event.strftime('<div>%w <span>هفته</span></div>  <div>%D <span>روز</span></div>  <div>%H<span>ساعت</span></div> <div>%M<span>دقیقه</span></div>')
             );
         });
 
