@@ -2211,6 +2211,7 @@ Cover
   position: absolute;
   bottom: -1px;
   margin: 0;
+  right: 110px;
 }
 .breadcrumbs ul {
   padding: 5px 90px;
@@ -2416,11 +2417,13 @@ Cover
 .speaker_box .speaker_img {
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 .speaker_box .speaker_img img {
-  width: 100%;
+  width: 20%;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
+  max-width: 50%;
 }
 .speaker_box .speaker_img .info_box {
   position: absolute;
@@ -2472,9 +2475,9 @@ Cover
   background-color: #f50136;
 }
 .speaker_box:hover .speaker_img img {
-  width: 100%;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  width: 25%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -3184,4 +3187,8 @@ body,h1,h2,h3,h4,h5,h6,p {
     border-radius: 20px;
     padding: 20px 40px;
     margin: 0 16%;
+}
+
+.my-intro h5{
+  display: block;
 }
