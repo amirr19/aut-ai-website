@@ -59,7 +59,7 @@ $(document).ready(function() {
     });
 
     $(".countdown")
-        .countdown("2020/02/20", function(event) {
+        .countdown("2020/01/21", function(event) {
             $(this).html(
                 event.strftime('<div>%w <span>هفته</span></div>  <div>%D <span>روز</span></div>  <div>%H<span>ساعت</span></div> <div>%M<span>دقیقه</span></div>')
             );
